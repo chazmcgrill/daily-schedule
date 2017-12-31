@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
+import DailySchedule from './DailySchedule'
 
 class App extends Component {
   render() {
     return (
-      <h1>Daily Schedule</h1>
+      <div className="App">
+        <h1>sked</h1>
+        <DailySchedule />
+      </div>
     )
   }
 }
